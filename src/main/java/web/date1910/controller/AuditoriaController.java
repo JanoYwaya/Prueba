@@ -23,6 +23,6 @@ public class AuditoriaController {
     
     @RequestMapping("regresar")
     public ModelAndView regresar() {
-        return new ModelAndView("usuarioLista","lista",taskService.listarTareas());
+        return new ModelAndView("taskLista","lista",taskService.listarTareas());
     }
 }

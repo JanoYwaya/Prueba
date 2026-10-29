@@ -34,7 +34,7 @@ public class UsuarioController {
 
         if (validado != null) {
             if (validado.getNombre() != "Vacio") {
-                rpta = new ModelAndView("usuarioLista", "lista",  taskService.listarTareas());
+                rpta = new ModelAndView("taskLista", "lista",  taskService.listarTareas());
             } else {
                 rpta = new ModelAndView("login", "mensaje", "Completa los campos");
             }

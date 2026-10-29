@@ -23,7 +23,7 @@ public class TaskController {
     
     @RequestMapping("listarTareas")
     public ModelAndView listarTareas() {
-        return new ModelAndView("usuarioLista", "lista", taskService.listarTareas());
+        return new ModelAndView("taskLista", "lista", taskService.listarTareas());
     }
 
     @RequestMapping("insertarTarea")
@@ -34,7 +34,7 @@ public class TaskController {
         }else{
             tarea.setStatus(status);
         }
-        return new ModelAndView("nuevoUsuario", "tareaBean", tarea);
+        return new ModelAndView("nuevoTask", "tareaBean", tarea);
     }
 
     @RequestMapping("grabarOperacion")
@@ -49,18 +49,18 @@ public class TaskController {
                 taskService.editarTarea(tarea);
             }
         }
-        return new ModelAndView("usuarioLista", "lista", taskService.listarTareas());
+        return new ModelAndView("taskLista", "lista", taskService.listarTareas());
     }
 
     @RequestMapping("eliminarTarea")
     public ModelAndView eliminarTarea(@RequestParam("id") Integer id) {
         taskService.eliminarTarea(id);
-        return new ModelAndView("usuarioLista", "lista", taskService.listarTareas());
+        return new ModelAndView("taskLista", "lista", taskService.listarTareas());
     }
 
     @RequestMapping("encontrarTarea")
     public ModelAndView encontrarTarea(@RequestParam("id") Integer id) {
-        return new ModelAndView("nuevoUsuario", "tareaBean", taskService.encontrarTarea(id));
+        return new ModelAndView("nuevoTask", "tareaBean", taskService.encontrarTarea(id));
     }
 
 }
