@@ -1,4 +1,4 @@
-<%@page import="web.date1910.dto.Eventos"  %>
+<%@page import="web.date1910.model.Eventos"  %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.util.List" %>
 <!DOCTYPE html>

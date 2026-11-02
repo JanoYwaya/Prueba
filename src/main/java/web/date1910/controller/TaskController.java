@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
-import web.date1910.dto.Task;
+import web.date1910.model.Task;
 import web.date1910.service.TaskService;
 
 @Controller

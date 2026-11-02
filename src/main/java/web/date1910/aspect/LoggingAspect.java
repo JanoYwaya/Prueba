@@ -9,7 +9,7 @@ import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import web.date1910.dto.Eventos;
+import web.date1910.model.Eventos;
 import web.date1910.repository.EventosRepository;
 
 @Aspect

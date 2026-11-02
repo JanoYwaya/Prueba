@@ -1,4 +1,4 @@
-package web.date1910.dto;
+package web.date1910.model;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

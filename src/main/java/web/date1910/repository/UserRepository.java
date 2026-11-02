@@ -4,7 +4,7 @@ import jakarta.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.List;
 import org.springframework.stereotype.Repository;
-import web.date1910.dto.User;
+import web.date1910.model.User;
 
 @Repository
 public class UserRepository {

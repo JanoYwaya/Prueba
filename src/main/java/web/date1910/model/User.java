@@ -1,4 +1,4 @@
-package web.date1910.dto;
+package web.date1910.model;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

@@ -3,7 +3,7 @@ package web.date1910.repository;
 import java.util.ArrayList;
 import java.util.List;
 import org.springframework.stereotype.Repository;
-import web.date1910.dto.Eventos;
+import web.date1910.model.Eventos;
 
 @Repository
 public class EventosRepository {

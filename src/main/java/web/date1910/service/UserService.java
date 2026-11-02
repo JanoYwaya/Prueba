@@ -2,7 +2,7 @@ package web.date1910.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import web.date1910.dto.User;
+import web.date1910.model.User;
 import web.date1910.repository.UserRepository;
 
 @Service

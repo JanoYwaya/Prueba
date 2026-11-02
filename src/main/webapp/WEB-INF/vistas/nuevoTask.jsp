@@ -1,5 +1,4 @@
-<%@page import="web.date1910.dto.Task"%>
-<%@page import="web.date1910.dto.User"%>
+<%@page import="web.date1910.model.Task"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib  uri="http://www.springframework.org/tags/form" prefix="mvc"%>
 <!DOCTYPE html>
