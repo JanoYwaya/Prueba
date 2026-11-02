@@ -15,10 +15,10 @@ public class TaskRepository {
     private void init() {
         tareas = new ArrayList<>();
 
-        tareas.add(new Task(1, "Implementar Spring Security", "Configurar autenticación y autorización en el proyecto con Spring Security", 0));
+        tareas.add(new Task(1, "Implementar Spring Security", "Configurar autenticacion y autorizacion en el proyecto con Spring Security", 0));
         tareas.add(new Task(2, "Diseñar vistas con Thymeleaf", "Crear las plantillas HTML en WEB-INF/templates utilizando expresiones de Thymeleaf y Bootstrap", 0));
-        tareas.add(new Task(3, "Desarrollar Capa de Servicios", "Implementar las clases @Service con la lógica de negocio y comunicación con la base de datos", 50));
-        tareas.add(new Task(4, "Configurar Subida de Archivos", "Gestionar el envío de archivos adjuntos mediante MultipartResolver y controladores de Spring", 100));
+        tareas.add(new Task(3, "Desarrollar Capa de Servicios", "Implementar las clases @Service con la logica de negocio y comunicacion con la base de datos", 50));
+        tareas.add(new Task(4, "Configurar Subida de Archivos", "Gestionar el envio de archivos adjuntos mediante MultipartResolver y controladores de Spring", 100));
     }
 
     public List<Task> getTareas() {

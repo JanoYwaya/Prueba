@@ -1,22 +1,18 @@
 package web.date1910.controller;
 
-import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 import web.date1910.dto.User;
 import web.date1910.service.TaskService;
-import web.date1910.service.UsuarioService;
+import web.date1910.service.UserService;
 
 @Controller
-public class UsuarioController {
+public class UserController {
 
     @Autowired
-    private UsuarioService usuarioService;
+    private UserService userService;
     
     @Autowired
     private TaskService taskService;
@@ -30,7 +26,7 @@ public class UsuarioController {
     public ModelAndView loginAccion(User usuario) {
 
         ModelAndView rpta;
-        User validado = usuarioService.validar(usuario);
+        User validado = userService.validar(usuario);
 
         if (validado != null) {
             if (validado.getNombre() != "Vacio") {

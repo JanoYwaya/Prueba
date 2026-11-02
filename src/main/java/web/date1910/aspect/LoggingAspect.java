@@ -14,7 +14,7 @@ import web.date1910.repository.EventosRepository;
 
 @Aspect
 @Component
-public class auditoria {
+public class LoggingAspect {
 
     @Autowired
     private EventosRepository eventosRepository;

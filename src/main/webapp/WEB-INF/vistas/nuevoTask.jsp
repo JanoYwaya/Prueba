@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="${pageContext.request.contextPath}/webjars/bootstrap-icons/1.11.3/font/bootstrap-icons.css">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/css/estilos.css" type="text/css"/>
 
-        <title>Nuevo Usuario</title>
+        <title>Nueva Tarea</title>
 
     </head>
     <body>

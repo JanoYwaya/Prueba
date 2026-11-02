@@ -12,15 +12,6 @@ public class User {
     @NotBlank
     private String password;
     private String nombre;
-    private String ancla;
-
-    public String getAncla() {
-        return ancla;
-    }
-
-    public void setAncla(String ancla) {
-        this.ancla = ancla;
-    }
 
     public String getUser() {
         return user;
@@ -53,7 +44,6 @@ public class User {
         this.user = user;
         this.password = password;
         this.nombre = nombre;
-        this.ancla = this.nombre;
     }
 
 }

@@ -5,10 +5,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/webjars/bootstrap/5.3.3/css/bootstrap.min.css">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/webjars/bootstrap-icons/1.11.3/font/bootstrap-icons.css">
-
-
         <link rel="stylesheet" href="${pageContext.request.contextPath}/css/estilos.css" type="text/css"/>
-
 
         <title>Index</title>
     </head>
